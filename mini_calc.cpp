@@ -28,7 +28,7 @@ int main(){
 	
 	cout<<"Enter num 1:";
 	cin>>n1;
-	cout<<"Enter num2:";
+	cout<<"Enter num 2:";
 	cin>>n2;
 	
 	cout<<"Sum is:"<<get_sum(n1, n2)<<endl;

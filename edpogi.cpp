@@ -1,16 +1,28 @@
- #include<iostream>
+#include <iostream>
+
 using namespace std;
-int main()
-{	
-	int a;
-	for (int a=1;a<101;a++)
-		if(a%3 == 0 && a%5 == 1 )
-		cout<<"Pogi"<<endl;
-		else if(a%5 == 0 && a%3 == 1 )
-		cout<<"Ed"<<endl;
-		else if( a% 5 == 0 && a%3 == 0)
-		cout<<"Ed Pogi"<<endl;
+
+int main ()
+{
+	for (int x=1 ; x<=100 ; x++)
+	{
+		if (x%3 == 0 && x%5 == 0)
+		{
+			cout << "Ed Pogi" << endl;
+		}
+		else if (x%5 == 0)
+		{
+			cout << "Ed" << endl;
+		}
+		else if (x%3 == 0)
+		{
+			cout << "Pogi" << endl;
+		}
 		else
-		cout << a<<endl;
-	return 0;	
+		{
+			cout << x << endl;
+		}
+	}
+	
+	return 0;
 }

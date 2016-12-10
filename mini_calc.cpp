@@ -31,10 +31,10 @@ int main(){
 	cout<<"Enter num 2:";
 	cin>>n2;
 	
-	cout<<"Sum is:"<<get_sum(n1, n2)<<endl;
-	cout<<"Difference is:"<<get_difference(n1,n2)<<endl;
-	cout<<"Product is:"<<get_product(n1,n2)<<endl;
-	cout<<"Quotient is:"<<get_quotient( n1,  n2);
+	cout<<"Sum is: "<<get_sum(n1, n2)<<endl;
+	cout<<"Difference is: "<<get_difference(n1,n2)<<endl;
+	cout<<"Product is: "<<get_product(n1,n2)<<endl;
+	cout<<"Quotient is: "<<get_quotient( n1,  n2);
 	
 	
 }

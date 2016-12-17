@@ -9,7 +9,6 @@ struct Person{
 }
 int main()
 {
-	
 	Person person;
 	cout << "Person's toes:" << endl;
 	 cin >> person.toes;

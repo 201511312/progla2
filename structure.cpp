@@ -7,4 +7,12 @@ struct Person{
 	int shoulder;
 	int head;
 }
-
+int main(){
+	
+	Person person;
+	cin>>person.toes;
+	cin>>person.knees;
+	cin>>person.shoulder;
+	cin>>person.head;
+	
+}

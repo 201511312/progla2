@@ -23,10 +23,11 @@ int main(){
 	 cin >> person[i].head;
 	};
 
-	 for(i=0;i<4;i++)
+	 for(i=0;i<4;i++){
 	 cout <<"toes:" << person[i].toes << endl;
 	 cout <<"knees:" << person[i].knees << endl;
 	 cout <<"shoulder:" << person[i].shoulder << endl;
 	 cout << "head:" <<person[i].head << endl;
-	return 0;
+	 };
+	 return 0;
 }
